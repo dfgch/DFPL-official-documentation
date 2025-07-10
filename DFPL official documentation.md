@@ -23,8 +23,8 @@ __DFPL commands__ ..............................................................
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Multiplication](#multiplication)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Division](#division) (and mod)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exponentiation](#exponentiation)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[When]\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Repeat]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[When](#when)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Repeat](#repeat)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Own functions]\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pause]\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Plot]\
@@ -314,9 +314,78 @@ Code:
     B = A ^ 2
 ```
 
+# When
+The when operation executes the code described in {} using a condition - if the condition is true, the code will be executed, if not, it will be skipped.\
+__Conditions you can use: =?, !=?, >?, <?__\
+Examples in programs:
+```
+Code:
+    a = 5
+    when a >? 5 {
+        export a
+    }
+```
+```
+Code:
+    a = 5
+    b = 19
+    when a =? b {
+        a = 19
+    }
+```
+or:
+```
+Code:
+    a = 3
+    when a > 0 {
+        when a < 10 {
+            export a
+            a = a + 1
+        }
+    }
+```
 
+# Repeat
+The Repeat operation allows you to do conditional loops and period loops.\
+The arguments supplied to this operation are not modified.
+```
+Code:
+    a = 0
+    loops = 10
 
+    repeat loops {
+        a = a + 1
+    }
+```
+```
+Code:
+    a = 0
 
+    repeat 10 {
+        a = a + 1
+    }
+```
+```
+Code:
+    a = 0
+
+    repeat until a =? 10 {
+        a = a + 1
+    }
+```
+or:
+```
+Code:
+    a = 0
+    loops = 10
+
+    repeat loops {
+        repeat 10 {
+            export a
+            a = a + 1
+        }
+    }
+```
 
 
 
