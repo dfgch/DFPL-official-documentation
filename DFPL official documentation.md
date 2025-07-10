@@ -15,14 +15,14 @@ __DFPL overview__ ..............................................................
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[DFPL optymalization]()\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[DFPL build-in functions]()\
 __DFPL commands__ .............................................................................................................................................................................................................................................................
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Import]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Export]()\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Import](#import)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Export](#export)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__operating on variables__\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Addition]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtraction]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Multiplication]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Division]() (and mod)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exponentiation]()\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Addition](#addition)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtraction](#subtraction)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Multiplication](#multiplication)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Division](#division) (and mod)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exponentiation](#exponentiation)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[When]()\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Repeat]()\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Own functions]()\
@@ -35,7 +35,7 @@ __DFPL commands__ ..............................................................
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Operating on a string]()\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[len]()\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dv]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Write]()
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Write]()\
 
 ## BM2.0 Conductor
 (soon)
@@ -115,7 +115,7 @@ Code:
 ```
 
 # Variables
-"variable_name = value" must appear in the code to create a variable!. The number of variables depends [on the value at an a ini block]()\
+"variable_name = value" must appear in the code to create a variable!. The number of variables depends [on the value at an a ini block](#ini-block)\
 variables can't be named 1, 2, 3......
 ```
 Code:
@@ -145,7 +145,7 @@ DFPL can remove unused variables in code and save RAM.
 
 # Export
 The Export command in DFPL is used to export a variable
-to a [standard port]() which you can set here.
+to a [standard port](#ini-block) which you can set here.
 ```
 Code:
     #Creating variable
@@ -313,6 +313,7 @@ Code:
     #Exponentiation
     B = A ^ 2
 ```
+
 
 
 
