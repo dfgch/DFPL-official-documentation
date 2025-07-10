@@ -6,13 +6,13 @@
 __Tools__ ....................................................................................................................................................................................................................................................................................
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[BizMut2.0 conductor]()\
 __DFPL overview__ .................................................................................................................................................................................................................................................................
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Files]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[.INI block]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[.Code block]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Prefixes]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Variables]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tags]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[DFPL optymalization]()\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Files](#files)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[.INI block](#ini-block)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[.Code block](#code-block)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Prefixes](#prefixes)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Variables](#variables)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tags](#tags\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[DFPL optymalization](#dfpl-optymalization)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[DFPL build-in functions]()\
 __DFPL commands__ .............................................................................................................................................................................................................................................................
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Import](#import)\
