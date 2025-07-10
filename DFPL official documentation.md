@@ -23,19 +23,19 @@ __DFPL commands__ ..............................................................
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Multiplication](#multiplication)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Division](#division) (and mod)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exponentiation](#exponentiation)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[When]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Repeat]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Own functions]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pause]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Plot]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Update]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reset]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Awiat]()\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[When]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Repeat]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Own functions]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pause]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Plot]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Update]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reset]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Awiat]\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__Operating on list__\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Operating on a string]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[len]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dv]()\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Write]()
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Operating on a string]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[len]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dv]\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Write]
 
 ## BM2.0 Conductor
 (soon)
