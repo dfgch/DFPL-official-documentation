@@ -66,11 +66,7 @@ __The "Code.txt" file must contain ini and underneath the ini block, code ** thi
 When you start programming the offset point is crucial because it is the point on the page where the program starts and in BizMut2.0 you will find the offset here:\
 ![e](https://cdn.discordapp.com/attachments/1091278557591908383/1392888640841191495/Minecraft__1.18.2_-_Tryb_jednoosobowy_10.07.2025_17_21_43.png?ex=68712c22&is=686fdaa2&hm=8e037d893be115f09137b9e71995274c406b305f69bb3179b0838a875a85fe08&)\
 \
-The point "ram for program" is quite crucial because this
-value tells the DFPL compiler how many ram cells it can
-use in the processor, it means that in the DFPL language
-you can create 300 variables and lists that have a
-maximum of 200 elements together.\
+The "program RAM" point is quite crucial, as this value tells the DFPL compiler how many RAM cells it can use on the processor. This means that DFPL can create 300 variables and lists with a total of 180 elements, as 20 elements are compiled.\
 \
 Output_standard_port and imput_standard_port points tell where the processor should redirect the value from the variable in the program when you use import and export.\
 \
